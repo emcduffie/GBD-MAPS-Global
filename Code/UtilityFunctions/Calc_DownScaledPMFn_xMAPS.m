@@ -17,14 +17,15 @@ function [C_DS] = Calc_DownScaledPMFn_xMAPS(year)
 %   L. Zhang, Q. Zhang, B. Ford, J. R. Pierce, R. V. Martin, Global Estimates and Long-Term
 %   Trends of Fine Particulate Matter Concentrations (1998-2018). Environ. Sci. Technol.,(2020).
 %   and avialable here: 
-%       https://www.who.int/airpollution/data/modelled-estimates/en/
+%       https://sites.wustl.edu/acag/datasets/surface-pm2-5/
+%      
 % DIMAQ data described in:
 %   G. Shaddick, M. L. Thomas, H. Amini, D. Broday, A. Cohen, J. Frostad, A. Green,
 %   S. Gumy, Y. Liu, R. V. Martin, A. Pruss-Ustun, D. Simpson, A. van Donkelaar, 
 %   M. Brauer, Data Integration for the Assessment of Population Exposure to Ambient 
 %   Air Pollution for Global Burden of Disease Assessment. Environ. Sci. Technol. 52, 9069-9078 (2018).
 %   and avialable here:
-%       https://sites.wustl.edu/acag/datasets/surface-pm2-5/
+%       https://www.who.int/airpollution/data/modelled-estimates/en/
 %%% INPUTS:
 % Year (numerical), 2017 or 2019
 %%% OUTPUTS:
@@ -41,12 +42,12 @@ function [C_DS] = Calc_DownScaledPMFn_xMAPS(year)
 if year==2017
     HammerFile ='/path/to/Hammer/data/ACAG_PM25_GWR_V4GL03_201701_201712_0p01.nc' ;     
     DIMAQDataLoc = '/path/to/DIMAQ data/';                                             
-    DIMAQFile = sprintf('%sDIMAQ_all_grids_%s_July2020.csv',DIMAQDataLoc,string(year));
+    DIMAQFile = sprintf('%sDIMAQ_file_name_%s',DIMAQDataLoc,string(year));
     latpos = 2;lonpos=1;medianpos=14;
 elseif year==2019
     HammerFile = '/path/to/hammer/data/ACAG_PM25_GWR_V4GL03_201901_201912_0p01.nc';     
     DIMAQDataLoc = '/path/to/DIMAQ/data/';
-    DIMAQFile = sprintf('%sGBD2019_2019.csv',DIMAQDataLoc);
+    DIMAQFile = sprintf('%sDIMAQ_file_name',DIMAQDataLoc);
     latpos = 3;lonpos=2;medianpos=15;
 end
 grid_infile = '/path/to/scripts/Coordinates.mat';                           %file that defines Lat and Lon at different resolutions
