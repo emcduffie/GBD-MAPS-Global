@@ -1,6 +1,8 @@
 # GBD-MAPS-Global
 Analysis scripts for the 2021 Global Burden of Disease - Major Air Pollution Sources (GBD-MAPS) - Global project.
 
+https://zenodo.org/record/4718618#.YIW6Wi2ZNTY
+
 The Global Burden of Disease-Major Air Pollution Sources (GBD-MAPS) – Global project, funded by the Health Effects Institute, is a joint collaboration led by researchers at Washington University in St. Louis, the University of British Columbia, the University of Washington, and Dalhousie University. Expanding upon a similar approach used in two previous GBD-MAPS studies for India and China, the GBD-MAPS-Global project employs an integrated modeling approach to identify dominant sources of ambient PM<sub>2.5</sub> pollution and to quantify the associated health impacts at the national level, for all 204 countries and territories currently included in the GBD project. 
 
 The analysis and results are described in detail in the following manuscript:
