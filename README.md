@@ -16,11 +16,11 @@ All code is written in MATLAB.
 
 ## Input Files
 
-Required input files are included in the Input_Data dataset (available for download at Zenodo at: 10.5281/zenodo.4642700) or are described in the headers of each script file. 
+Required input files are included in the Input_Data dataset (available for download at Zenodo at: https://zenodo.org/record/4642700) or are described in the headers of each script file. 
 
 *NOTE: these scripts do not contain the raw GEOS-Chem model results.* Due to the size of the GEOS-Chem results dataset (~1 Tb), please contact erin.mcduffie (@) wustl.edu for inquiries about access to the raw GEOS-Chem model output dataset. 
 
-The GEOS-Chem source code used to produce the results is avialble here: https://github.com/emcduffie/GC_v12.1.0_EEM. 
+The GEOS-Chem source code used to produce the results is available here: https://github.com/emcduffie/GC_v12.1.0_EEM. 
 
 The emission input dataset used for the sensitivity simulations is avialable for download at Zenodo: https://zenodo.org/record/3754964
 and is described in detail in McDuffie et al., ESSD 2020: https://essd.copernicus.org/articles/12/3413/2020/essd-12-3413-2020.html
